@@ -1,0 +1,176 @@
+
+body{
+    padding: 0px; 
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+ul, li {
+    padding: 0;
+    margin; 0;
+	list-style-type: none;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#page {
+    width: 1200px; 
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+}
+
+
+
+
+/*************** Header ***************/
+
+
+header{
+    height: 173px;
+    padding: 39px 39px 0 30px; 
+}
+
+header ul li, header form{
+    display: inline;
+}
+
+header div.logo {
+    float: left;
+    width: 232px;
+}
+
+header nav
+{
+    width: 500px;
+    float: right;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header section.administration {
+    margin-bottom:40px;
+	font-size: .9em;
+}
+
+header section.administration li
+{
+    margin-right: 20px;
+}
+
+header section.departments{
+	font-size: 1.2em;
+	margin-left: -90px;
+}
+
+header section.departments li{
+	margin-right: 25px;
+}
+
+/************** End Header ************/
+
+
+/************** Main Section **********/
+
+article.main section.promo-rotator{
+	height: 500px;
+}
+ 
+img {
+	margin: 0;
+	padding: 0;
+}
+
+section.new-arrivals {
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 10px 0px;
+}
+
+section.new-arrivals li{
+	margin: 0px 33px
+}
+
+section.new-arrivals ul li
+{
+	display: inline-block;
+}
+
+section.new-arrivals div.description {
+	text-align: left;
+	font-size: .8em;
+}
+
+section.new-arrivals div.category a{
+	text-transform:uppercase;
+	color: #989898;
+	font-family: sans-serif;
+}
+
+.new-arrival {
+	background-color: #fff;
+	padding: 0;
+}
+
+.new-arrival .description
+{
+	padding: 0 5px;
+}
+
+.new-arrival .name{
+	float: left;
+}
+.new-arrival .price{
+	float: right;
+}
+
+/************** End Main ***********/
+
+
+/************** Footer *************/
+
+footer {
+	border-top: 1px solid #000;
+}
+
+footer img.footer-logo{
+	float: left;
+	margin: 3em;
+}
+
+footer div.footer-links{
+	float: right;
+}
+
+footer ul
+{
+	display: inline-block;
+	margin-right: 8em;
+}
+
+footer ul li{
+	padding-bottom: 5px;
+	font-size: .78em;
+}
+
+footer .copyright{
+	margin: 0 40px;
+	border-top: 1px solid lightgrey;
+	padding: 10px 0;
+	font-size: .7em;
+	color: lightgrey;
+	font-family: sans-serif;
+	clear: both;
+}
+
+/*************** End Footer **********/
