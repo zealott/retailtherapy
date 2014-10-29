@@ -110,6 +110,11 @@ section.new-arrivals div.description {
 	text-align: left;
 }
 
+.name, .price
+{
+	font-size: .9em;
+}
+
 div.category a{
 	text-transform:uppercase;
 	color: #989898;
@@ -120,11 +125,6 @@ div.category a{
 .new-arrival {
 	background-color: #fff;
 	padding: 0;
-}
-
-.new-arrival .description
-{
-	padding: 0 5px;
 }
 
 .new-arrival .name{
@@ -178,6 +178,8 @@ section.sales > ul > li
 	border: 2px solid pink;
 	padding: 10px;
 	margin-top: 10px;
+	color: pink;
+	font-family: sans-serif;
 }
 
 .see-more:after
