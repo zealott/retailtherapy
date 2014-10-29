@@ -108,13 +108,13 @@ section.new-arrivals ul li
 
 section.new-arrivals div.description {
 	text-align: left;
-	font-size: .8em;
 }
 
-section.new-arrivals div.category a{
+div.category a{
 	text-transform:uppercase;
 	color: #989898;
 	font-family: sans-serif;
+	font-size: .8em;
 }
 
 .new-arrival {
@@ -132,6 +132,59 @@ section.new-arrivals div.category a{
 }
 .new-arrival .price{
 	float: right;
+}
+
+.new-arrival .category{
+	clear: both;
+	padding-top: 5px;
+}
+
+
+section.sales > ul > li
+{
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.sales h3{
+	font-size: 1.5em;
+	padding-bottom: 1px;
+	border-bottom: 2px solid #000;
+}
+
+.sales .sections
+{
+	text-align: center;
+}
+
+.sales .sections > li {
+	text-align: left;
+}
+
+.sales .item img{
+	float: left;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.sales .item .details
+{
+
+}
+
+.see-more
+{
+	display: block;
+	border: 2px solid pink;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.see-more:after
+{
+	padding-left: 120px;
+	color: pink;
+	content: ">";
 }
 
 /************** End Main ***********/
@@ -174,3 +227,11 @@ footer .copyright{
 }
 
 /*************** End Footer **********/
+
+
+/*************** Utiilty Classes ***********/
+
+.no-decoration:hover
+{
+	text-decoration: none;
+}
