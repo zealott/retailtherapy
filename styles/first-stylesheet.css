@@ -248,3 +248,20 @@ footer .copyright{
 {
 	text-decoration: none;
 }
+
+.offscreen
+{
+	position: absolute;
+	left: -100000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.offscreen:focus
+{
+	position: static;
+	width: auto;
+	height: auto;
+}
